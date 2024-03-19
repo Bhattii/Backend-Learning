@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Bhattii/Backend-Learning/issues"
   },
-  "homepage": "https://github.com/Bhattii/Backend-Learning#readme"
+  "homepage": "https://github.com/Bhattii/Backend-Learning#readme",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
 }
