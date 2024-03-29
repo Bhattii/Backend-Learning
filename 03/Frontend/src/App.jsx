@@ -7,7 +7,14 @@ function App() {
   const [jokes, setJokes] = useState([]);
 
   useEffect(() => {
-    axios.get('');
+    axios
+      .get('http://localhost:5173/jokes')
+      .then((response) => {
+        setJokes(response.data);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
   });
   return (
     <>
